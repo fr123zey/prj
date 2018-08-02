@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+   
+<head>
+     <title>ADA students feedback</title>   
+    
+    <style>
+
+        body{
+            background-color:#ffeeee ;
+            padding-bottom: 100px;
+            padding-top:40px
+        }
+        
+        }
+        img {
+            float:centre;
+            padding-bottom: 15px;
+            padding-top:20px;
+            padding-left:80px;
+            width:250px; }
+        #square{
+            height:500px;
+            width: 400px;
+            background-color:	#f0cece ;
+            font-size: 12px;
+            font-family: arial ;
+            margin-left: 100px;
+          
+            
+        }
+        #rectangle{
+            height:500px;
+            width:600px;
+            background-color:white;
+            position: absolute;
+            width: 700px;
+            height: 500px;
+            z-index: 15;
+            top: 36%;
+            left: 49%;
+            margin: -100px 0 0 -150px;
+            padding-right: 10px
+    
+        }
+        form[type=text]{
+            box-sizing: border-box;
+            width:100%;
+            padding:10px
+        }
+
+        #z{
+            color:white;
+            
+        }
+      
+        h1{
+            letter-spacing: 8px;
+        }
+
+        input[type=text],input[type=submit]{
+            width:600px;
+            box-sizing:border-box;
+            padding:10px;
+            margin: 10px;
+            border:1px solid #f0cece;
+        }
+       
+        input[type=button],input [type=submit]{
+            cursor:pointer;
+            widows: 400px;   
+        }
+        br {
+            font-size: 10px;
+            font-family: arial;
+            text-align: center;
+        }
+        
+        h3{
+            font-weight: normal;
+        }
+        h2{
+            color:rgb(180, 175, 180)
+        }
+
+
+    </style>
+
+    </head>
+
+    <body>
+
+            <h1 ><span id="z">ADA</span> Students Feedback</h1>
+
+
+        <div id="square">
+                <img src="res2/uncle-sam.png" width="300">
+        
+                <h2>To give us feedback, because this 
+                    course is made for you! Because it's 
+                    all about you!</h2>
+                <h3>fill this form if you :</h3>
+                <h3>-Find an error in the content or in the 
+                    quizzes</h3>
+                <h3>- Have a feedback about instructors or the
+                     experience</h3> 
+                <h3>- Have a suggestion on how to make the 
+                    course better</h3>
+        </div>
+        <div id="rectangle">
+            <h2>Email Us:</h2>
+            <form  >
+             name <br>
+            <input type="text" name="firstname"><br>
+            <br>track<br>
+            <select>
+                <option>WEB</option>
+                <option>AI</option>
+                <option>GAME</option>
+            </select><br>
+             <br>slide name:<br>
+            <input type="text" name="lastname" required ><br>
+            <br>message<br>
+            <input type="text" name ="message"><br>
+            <input type="submit" value="Submit" >
+
+              
+            </form>
+
+        </div>
+    
+    </body>
+</html>
